@@ -58,11 +58,11 @@ var App = (function() {
 		showAlbum: function(album) {
 
 		//get data and filter out objects that match with album_name
-		var appData = app.data;
-		var albumData = appData.filter(function(currentItem) {
-  	return currentItem.album_name === album;
+			var appData = app.data;
+			var albumData = appData.filter(function(currentItem) {
+	  	return currentItem.album_name === album;
 
-		});
+			});
 
 			//console.log(albumData)
 			//AlbumGroup(albumData);
@@ -72,6 +72,17 @@ var App = (function() {
       $("body").html( ag.render() );
       //render title of the page
       $(".test").text( "My " + ag.renderTitle() + " Photos" );
+
+
+      //listener for the small individual photos - calls zoomphoto
+      $(".group_photos").on("click", ".photo", function(e){
+        e.preventDefault();
+        $clicked = $(e.currentTarget);
+        var myPhotoId = $clicked.data("photo-id");
+				alert("my photo id is " + myPhotoId);
+			
+      });
+
 
 
 		},
@@ -102,10 +113,11 @@ var App = (function() {
 
 
 		zoomPhoto: function(album) {
-		//needs what photo to show
-		//here's photo id would come in
+		//here's photo id would come in - done.
 		//data attribute of photo id
 		//template that renders
+
+		console.log("clicked");
 
 		},
 
