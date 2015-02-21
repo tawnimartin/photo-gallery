@@ -21,7 +21,6 @@ var App = (function() {
 			.value();
 
 	
-
 			var app = this;
 
 			_.each(albumData, function(album) {
@@ -32,7 +31,7 @@ var App = (function() {
 				//"Album A"
 				var photo = _.find(app.data, function(photo) {
 
-					console.log("photo", photo);
+					//console.log("photo", photo);
 					return photo.album_name === albumName;//grab the first photo of that album name
 
 				});
@@ -46,7 +45,7 @@ var App = (function() {
 
 		},
 
-
+		//shows all the albums - cover page
 		showAlbums: function() {
 		var albumData = this.getAlbumData();
 		var collection = new AlbumsCollection(albumData);
@@ -55,8 +54,7 @@ var App = (function() {
 		},
 
 
-
-
+		//shows all the photos of one album
 		showAlbum: function(album) {
 
 		//get data and filter out objects that match with album_name
@@ -78,6 +76,21 @@ var App = (function() {
 
 		},
 
+
+		showNav: function(album) {
+
+			//console.log(this.getAlbumData());
+			$(".sidebar").text("Hello");
+
+			var albumData = this.getAlbumData();
+			//console.log(albumData);
+			var nav = new NavList(albumData);
+      $(".sidebar").html( nav.render() );
+
+		},
+
+
+
 		zoomPhoto: function(album) {
 		//needs what photo to show
 		//here's photo id would come in
@@ -94,6 +107,7 @@ var App = (function() {
         $clicked = $(e.currentTarget);
         var groupName = $clicked.data("group-name");
         app.showAlbum(groupName);
+        app.showNav();
       });
 
 		}

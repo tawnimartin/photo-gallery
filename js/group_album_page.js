@@ -25,7 +25,7 @@ var AlbumGroup = (function() {
 
 		//for the title of the page - returns the group name
 		renderTitle: function() {
-			return this.data[0].album_name;
+		return this.data[0].album_name;
 		}
 
 
