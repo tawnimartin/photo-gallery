@@ -4,6 +4,7 @@ var App = (function() {
 	function App(data) {
 		this.data = data;
 		this.showAlbums();
+		this.addListeners();
 	}
 
 
@@ -53,29 +54,45 @@ var App = (function() {
 			$("body").html( collection.render() );
 		},
 
-		showAlbum: function(album) {
-//needs what album to show
 
+
+
+		showAlbum: function(album) {
+
+		//get data and filter out objects that match with album_name
+		var appData = app.data;
+		var albumData = appData.filter(function(currentItem) {
+  	return currentItem.album_name === album;
+
+		});
+
+			//console.log(albumData)
+			//AlbumGroup(albumData);
+		
+			//show photos in a particular group
+      var ag = new AlbumGroup(albumData);
+      $("body").html( ag.render() );
 
 
 		},
 
 		zoomPhoto: function(album) {
-//needs what photo to show
-//here's photo id would come in
-//data attribute of photo id
-//template that renders 
+		//needs what photo to show
+		//here's photo id would come in
+		//data attribute of photo id
+		//template that renders 
 
 		},
 
 		addListeners: function(album) {
-//attach all the listeners
-//event listener - grab that album name - put album name 
-//data attr on link
-//get album name off it 
-//call show album and
-//use filter - all my data by album name = this album
-//template for this
+		 var app = this;
+		 //click on album from main cover, showAlbum
+		 $(".photos").on("click", ".photo", function(e){
+        e.preventDefault();
+        $clicked = $(e.currentTarget);
+        var groupName = $clicked.data("group-name");
+        app.showAlbum(groupName);
+      });
 
 		}
 	}

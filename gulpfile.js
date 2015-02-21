@@ -36,7 +36,9 @@ gulp.task("less", function() {
 
 })
 
+
 gulp.task("watch", function() {
   gulp.watch(templatePath, ["templates"]);
   gulp.watch(lessPath, ["less"]);
 });
+//gulp.task('default', ['watch']);
