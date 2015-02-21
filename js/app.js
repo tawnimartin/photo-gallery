@@ -91,7 +91,10 @@ var App = (function() {
         e.preventDefault();
         $clicked = $(e.currentTarget);
         var groupName = $clicked.data("group-name");
-				alert("Thanks for clicking " + groupName);
+				$(".main").html( app.showAlbum(groupName) );
+				//$(".sidebar").html( nav.render() );
+				app.showNav();
+			
       });
 
 		},
@@ -102,7 +105,7 @@ var App = (function() {
 		//needs what photo to show
 		//here's photo id would come in
 		//data attribute of photo id
-		//template that renders 
+		//template that renders
 
 		},
 
