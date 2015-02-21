@@ -125,8 +125,19 @@ var App = (function() {
 	      //instantiate BigPhotoData, pass our photoData
 	      var myBigPhoto = new BigPhotoData(photoData);
 	      //console.log(myBigPhoto.render());
-	      //call render method, put in main
 	      $("body").html( myBigPhoto.render() );
+
+      //listener for back btn
+      $("body").on("click", ".back-btn", function(e){
+        e.preventDefault();
+        $clicked = $(e.currentTarget);
+
+        var thisPhotoGroup = photoData.album_name;
+
+        app.showAlbum(thisPhotoGroup);
+        app.showNav(thisPhotoGroup);
+
+      });
 	    
 
 		},
