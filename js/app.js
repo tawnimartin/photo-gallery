@@ -79,13 +79,20 @@ var App = (function() {
 
 		showNav: function(album) {
 
-			//console.log(this.getAlbumData());
-			$(".sidebar").text("Hello");
-
+			//get albumData from above - this app
 			var albumData = this.getAlbumData();
-			//console.log(albumData);
+			//instantiate navList - which is nav outer - which iself pulls in nav inner
 			var nav = new NavList(albumData);
       $(".sidebar").html( nav.render() );
+
+
+      //listener needs to be here, after sidebar is rendered
+      $(".nav-list").on("click", ".inner-album-name", function(e){
+        e.preventDefault();
+        $clicked = $(e.currentTarget);
+        var groupName = $clicked.data("group-name");
+				alert("Thanks for clicking " + groupName);
+      });
 
 		},
 
@@ -100,7 +107,7 @@ var App = (function() {
 		},
 
 		addListeners: function(album) {
-		 var app = this;
+		 //var app = this;
 		 //click on album from main cover, showAlbum
 		 $(".photos").on("click", ".photo", function(e){
         e.preventDefault();
@@ -110,7 +117,10 @@ var App = (function() {
         app.showNav();
       });
 
+
 		}
+
+
 	}
 
 	return App;
