@@ -75,11 +75,12 @@ var App = (function() {
 
 
       //listener for the small individual photos - calls zoomphoto
-      $(".group_photos").on("click", ".photo", function(e){
+      $(".main").on("click", ".photo", function(e){
         e.preventDefault();
         $clicked = $(e.currentTarget);
         var myPhotoId = $clicked.data("photo-id");
-				alert("my photo id is " + myPhotoId);
+        //call zoomPhoto
+				app.zoomPhoto(myPhotoId);
 			
       });
 
@@ -112,12 +113,21 @@ var App = (function() {
 
 
 
-		zoomPhoto: function(album) {
-		//here's photo id would come in - done.
-		//data attribute of photo id
-		//template that renders
+		zoomPhoto: function(photoId) {
 
-		console.log("clicked");
+				//alert("my photo id is " + photoId);
+				//out of all the data in this.data
+				var photoData = _.find(this.data, function(photo) {
+					//find the one where photo id = passed id, put in photoData
+	        return photo.photo_id === photoId;
+	      });
+
+	      //instantiate BigPhotoData, pass our photoData
+	      var myBigPhoto = new BigPhotoData(photoData);
+	      //console.log(myBigPhoto.render());
+	      //call render method, put in main
+	      $("body").html( myBigPhoto.render() );
+	    
 
 		},
 

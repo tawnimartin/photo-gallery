@@ -12,7 +12,6 @@
 }
 .main {
   width: calc(100% - 150px);
-  background: blue;
   float: right;
 }
 .sample-photo img {
@@ -20,4 +19,11 @@
 }
 .little-photo img {
   width: 100px;
+  cursor: pointer;
+}
+.inner-album-name {
+  cursor: pointer;
+}
+.photo {
+  cursor: pointer;
 }
