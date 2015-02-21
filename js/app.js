@@ -68,10 +68,12 @@ var App = (function() {
 
 			//console.log(albumData)
 			//AlbumGroup(albumData);
-		
+
 			//show photos in a particular group
       var ag = new AlbumGroup(albumData);
       $("body").html( ag.render() );
+      //render title of the page
+      $(".test").text( "My " + ag.renderTitle() + " Photos" );
 
 
 		},

@@ -4,23 +4,31 @@ var AlbumGroup = (function() {
 
 	function AlbumGroup(data) {
 		this.data = data;
-		
+
 	}
 
 	AlbumGroup.prototype = {
 
 			render: function() {
-				var $el = $( template() );
 
-				_.each(this.data, function(album) {
+				var $el = $( template() );//building jq element, starting w template
 
-					var myAlbum = new GroupAlbumThumbnail(album);
+				_.each(this.data, function(photo) {//for each object, or photo
 
-					$el.append( myAlbum.render() );
+					var myPhoto = new GroupAlbumThumbnail(photo);//instance of GroupAlbumThumbnail
+
+					$el.append( myPhoto.render() );//call render, append to jq element
 
 				});
-				return $el;
+				return $el;//return jq element
+		},
+
+		//for the title of the page - returns the group name
+		renderTitle: function() {
+			return this.data[0].album_name;
 		}
+
+
 
 	};
 

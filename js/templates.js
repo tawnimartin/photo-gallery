@@ -16,7 +16,7 @@ this["JST"]["album_thumbnail"] = Handlebars.template({"compiler":[6,">= 2.0.0-be
 this["JST"] = this["JST"] || {};
 this["JST"]["group_album_page"] = Handlebars.template({"compiler":[6,">= 2.0.0-beta.1"],"main":function(depth0,helpers,partials,data) {
   var helper, functionType="function", helperMissing=helpers.helperMissing, escapeExpression=this.escapeExpression;
-  return "<div class=\"group_albums\">\n	<h1>My Album of "
+  return "<div class=\"group_albums\">\n	<h1 class=\"test\">My Album of "
     + escapeExpression(((helper = (helper = helpers.album_name || (depth0 != null ? depth0.album_name : depth0)) != null ? helper : helperMissing),(typeof helper === functionType ? helper.call(depth0, {"name":"album_name","hash":{},"data":data}) : helper)))
     + "</h1>";
 },"useData":true});
