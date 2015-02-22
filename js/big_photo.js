@@ -1,18 +1,17 @@
 var BigPhotoData = (function() {
 
-	var template = JST["big_photo"]
+  var template = JST["big_photo"]
 
-	function BigPhotoData(data) {
-		this.data = data;
-	}
+  function BigPhotoData(data) {
+    this.data = data;
+  }
 
-	BigPhotoData.prototype = {
-		render: function() {
-			return $( template(this.data) );
+  BigPhotoData.prototype = {
+    render: function() {
+      return $( template(this.data) );
+    }
+  }
 
-		}
-	}
-
-	return BigPhotoData;
+  return BigPhotoData;
 
 })();

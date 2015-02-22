@@ -1,28 +1,28 @@
 var AlbumsCollection = (function() {
 
-	var template = JST["album_collection"];
+  var template = JST["album_collection"];
 
-	function AlbumsCollection(data) {
-		this.data = data;
-	}
+  function AlbumsCollection(data) {
+    this.data = data;
+  }
 
-	AlbumsCollection.prototype = {
+  AlbumsCollection.prototype = {
 
-			render: function() {
-				var $el = $( template() );
-				var $ul = $el.find("ul");
+    render: function() {
+    var $el = $( template() );
+    var $ul = $el.find("ul");
 
-				_.each(this.data, function(album) {
+      _.each(this.data, function(album) {
+      var thumbnail = new AlbumThumbnail(album);
+      $ul.append( thumbnail.render() );
 
-					var thumbnail = new AlbumThumbnail(album);
-					$ul.append( thumbnail.render() );
+      });
+      
+      return $el;
+    }
 
-				});
-				return $el;
-		}
+  };
 
-	};
-
-	return AlbumsCollection;
+  return AlbumsCollection;
 
 })();

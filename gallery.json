@@ -1,56 +1,151 @@
 [{
-  "album_name": "Travel",
-  "photo_url": "http://thumbs.dreamstime.com/t/great-pyramid-cheops-giza-ancient-egypt-travel-11278442.jpg",
-  "photo_name": "Egypt",
-  "photo_id": 1
+  "album_name": "Instagram",
+  "photo_url": "images/instagram/1.jpg",
+  "photo_name": "Tulips in the sun",
+  "photo_id": 16
 },{
-  "album_name": "Family",
-  "photo_url": "http://thumbs.dreamstime.com/x/happy-family-14070887.jpg",
-  "photo_name": "Thumbs Up Yeah",
-  "photo_id": 2
+  "album_name": "Instagram",
+  "photo_url": "images/instagram/2.jpg",
+  "photo_name": "Yum",
+  "photo_id": 17
 },{
-  "album_name": "Dog",
-  "photo_url": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTKh_u0N9BYocf5L2eV9_pkxszLwzTha6NGnuNAIpiJM0XlaMx-",
-  "photo_name": "Cuteness",
-  "photo_id": 3
+  "album_name": "Instagram",
+  "photo_url": "images/instagram/3.jpg",
+  "photo_name": "a ride in the car",
+  "photo_id": 18
 },{
-  "album_name": "Dog",
-  "photo_url": "http://thumbs.dreamstime.com/t/dogs-dog-park-training-4492729.jpg",
-  "photo_name": "Lots of Dogs on Grass",
-  "photo_id": 4
+  "album_name": "Instagram",
+  "photo_url": "images/instagram/4.jpg",
+  "photo_name": "artsy shot",
+  "photo_id": 19
 },{
-  "album_name": "Dog",
-  "photo_url": "http://thumbs.dreamstime.com/t/dogs-face-close-up-shot-nose-40906083.jpg",
-  "photo_name": "Cuteness2",
-  "photo_id": 5
+  "album_name": "Instagram",
+  "photo_url": "images/instagram/5.jpg",
+  "photo_name": "pink and black",
+  "photo_id": 20
 },{
-  "album_name": "Family",
-  "photo_url": "http://thumbs.dreamstime.com/t/happy-family-making-home-sign-hill-31539976.jpg",
-  "photo_name": "Always with the metaphors",
-  "photo_id": 6
+  "album_name": "Instagram",
+  "photo_url": "images/instagram/6.jpg",
+  "photo_name": "seemed like a good idea at the time",
+  "photo_id": 21
+},{
+  "album_name": "Instagram",
+  "photo_url": "images/instagram/7.jpg",
+  "photo_name": "selfie with filters",
+  "photo_id": 22
+},{
+  "album_name": "Instagram",
+  "photo_url": "images/instagram/8.jpg",
+  "photo_name": "shadows",
+  "photo_id": 23
+},{
+  "album_name": "Instagram",
+  "photo_url": "images/instagram/9.jpg",
+  "photo_name": "flower",
+  "photo_id": 24
+},{
+  "album_name": "Instagram",
+  "photo_url": "images/instagram/10.jpg",
+  "photo_name": "sky",
+  "photo_id": 25
+},{
+  "album_name": "hotels i've been to",
+  "photo_url": "images/hotels/1.jpg",
+  "photo_name": "Hotel Castillo Del Bosque La Zoreda, Oviedo Spain",
+  "photo_id": 26
+},{
+  "album_name": "hotels i've been to",
+  "photo_url": "images/hotels/2.jpg",
+  "photo_name": "Hospes Palacio del Bailío, Cordoba Spain",
+  "photo_id": 27
+},{
+  "album_name": "hotels i've been to",
+  "photo_url": "images/hotels/3.jpg",
+  "photo_name": "The Public Hotel, Chicago",
+  "photo_id": 28
+},{
+  "album_name": "hotels i've been to",
+  "photo_url": "images/hotels/4.jpg",
+  "photo_name": "The Algonquin Hotel, New York, NY",
+  "photo_id": 29
+},{
+  "album_name": "hotels i've been to",
+  "photo_url": "images/hotels/5.jpg",
+  "photo_name": "The Hay Adams Hotel, Washington, DC",
+  "photo_id": 36
+},{
+  "album_name": "hotels i've been to",
+  "photo_url": "images/hotels/6.jpg",
+  "photo_name": "the lowes madison hotel, Washington, DC",
+  "photo_id": 30
+},{
+  "album_name": "hotels i've been to",
+  "photo_url": "images/hotels/7.jpg",
+  "photo_name": "Grand Hotel Don Gregorio Salamanca, Spain",
+  "photo_id": 35
+},{
+  "album_name": "hotels i've been to",
+  "photo_url": "images/hotels/8.jpg",
+  "photo_name": "Le Méridien San Francisco",
+  "photo_id": 31
+},{
+  "album_name": "hotels i've been to",
+  "photo_url": "images/hotels/9.jpg",
+  "photo_name": "the urban hotel, madrid, spain",
+  "photo_id": 32
+},{
+  "album_name": "hotels i've been to",
+  "photo_url": "images/hotels/10.jpg",
+  "photo_name": "Half Moon Resort, jamaica",
+  "photo_id": 34
 },{
   "album_name": "Beaches",
-  "photo_url": "http://www.kailua-beach-rentals.com/whitesandybeach/The-Mokes-White-Sandy-Beach-Lanikai-Oahu-vacation-rental.jpg",
+  "photo_url": "images/beaches/1.jpg",
   "photo_name": "A Beach Somewhere in the World",
   "photo_id": 7
 },{
   "album_name": "Beaches",
-  "photo_url": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT3wYwGOwlVtDoClPieaBjlHTA4gDv7EM9uVC71Nrofn4sUqTQV",
+  "photo_url": "images/beaches/2.jpg",
   "photo_name": "Another Nice Beach",
   "photo_id": 8
 },{
   "album_name": "Beaches",
-  "photo_url": "http://static.travel.usnews.com/images/destinations/41/main_image.jpg",
-  "photo_name": "A Pier on a Beach",
+  "photo_url": "images/beaches/3.jpg",
+  "photo_name": "A Beach with sunset",
   "photo_id": 9
 },{
   "album_name": "Beaches",
-  "photo_url": "http://static.travel.usnews.com/images/destinations/41/sunrise_on_myrtle_beach.jpg",
-  "photo_name": "Beach With Sunset and Birds",
+  "photo_url": "images/beaches/4.jpg",
+  "photo_name": "Hawaii",
   "photo_id": 10
 },{
-  "album_name": "Travel",
-  "photo_url": "http://thumbs.dreamstime.com/t/africa-travel-17901380.jpg",
-  "photo_name": "Africa",
+  "album_name": "Beaches",
+  "photo_url": "images/beaches/5.jpg",
+  "photo_name": "cool wave shot",
   "photo_id": 11
+},{
+  "album_name": "Beaches",
+  "photo_url": "images/beaches/6.jpg",
+  "photo_name": "water falling over rocks",
+  "photo_id": 12
+},{
+  "album_name": "Beaches",
+  "photo_url": "images/beaches/7.jpg",
+  "photo_name": "liberal use of hdr",
+  "photo_id": 13
+},{
+  "album_name": "Beaches",
+  "photo_url": "images/beaches/8.jpg",
+  "photo_name": "beach with palm",
+  "photo_id": 14
+},{
+  "album_name": "Beaches",
+  "photo_url": "images/beaches/9.jpg",
+  "photo_name": "as seen on thousands of postcards",
+  "photo_id": 15
+},{
+  "album_name": "Beaches",
+  "photo_url": "images/beaches/10.jpg",
+  "photo_name": "panic level 10",
+  "photo_id": 33
 }]
