@@ -51,12 +51,12 @@
 },{
   "album_name": "hotels i've been to",
   "photo_url": "images/hotels/1.jpg",
-  "photo_name": "Hotel Castillo Del Bosque La Zoreda, Oviedo Spain",
+  "photo_name": "Castillo Del Bosque La Zoreda, Spain",
   "photo_id": 26
 },{
   "album_name": "hotels i've been to",
   "photo_url": "images/hotels/2.jpg",
-  "photo_name": "Hospes Palacio del Bailío, Cordoba Spain",
+  "photo_name": "Palacio del Bailío, Spain",
   "photo_id": 27
 },{
   "album_name": "hotels i've been to",
@@ -66,12 +66,12 @@
 },{
   "album_name": "hotels i've been to",
   "photo_url": "images/hotels/4.jpg",
-  "photo_name": "The Algonquin Hotel, New York, NY",
+  "photo_name": "The Algonquin Hotel, Ny, NY",
   "photo_id": 29
 },{
   "album_name": "hotels i've been to",
   "photo_url": "images/hotels/5.jpg",
-  "photo_name": "The Hay Adams Hotel, Washington, DC",
+  "photo_name": "The Hay Adams Hotel, DC",
   "photo_id": 36
 },{
   "album_name": "hotels i've been to",
@@ -143,6 +143,156 @@
   "photo_url": "images/beaches/9.jpg",
   "photo_name": "as seen on thousands of postcards",
   "photo_id": 15
+},{
+  "album_name": "my dog",
+  "photo_url": "images/dog/1.jpg",
+  "photo_name": "Ollie",
+  "photo_id": 42
+},{
+  "album_name": "miscellaneous",
+  "photo_url": "images/misc/1.jpg",
+  "photo_name": "in Palm Beach",
+  "photo_id": 43
+},{
+  "album_name": "miscellaneous",
+  "photo_url": "images/misc/2.jpg",
+  "photo_name": "in Spain",
+  "photo_id": 44
+},{
+  "album_name": "miscellaneous",
+  "photo_url": "images/misc/3.jpg",
+  "photo_name": "in Chicago",
+  "photo_id": 45
+},{
+  "album_name": "miscellaneous",
+  "photo_url": "images/misc/4.jpg",
+  "photo_name": "Workout day",
+  "photo_id": 46
+},{
+  "album_name": "miscellaneous",
+  "photo_url": "images/misc/5.jpg",
+  "photo_name": "me and my mom",
+  "photo_id": 47
+},{
+  "album_name": "miscellaneous",
+  "photo_url": "images/misc/6.jpg",
+  "photo_name": "in DC",
+  "photo_id": 48
+},{
+  "album_name": "miscellaneous",
+  "photo_url": "images/misc/7.jpg",
+  "photo_name": "Spark party",
+  "photo_id": 49
+},{
+  "album_name": "miscellaneous",
+  "photo_url": "images/misc/8.jpg",
+  "photo_name": "in Palm Beach",
+  "photo_id": 50
+},{
+  "album_name": "miscellaneous",
+  "photo_url": "images/misc/9.jpg",
+  "photo_name": "in DC",
+  "photo_id": 51
+},{
+  "album_name": "miscellaneous",
+  "photo_url": "images/misc/10.jpg",
+  "photo_name": "hello",
+  "photo_id": 52
+},{
+  "album_name": "my dog",
+  "photo_url": "images/dog/2.jpg",
+  "photo_name": "his portrait photo",
+  "photo_id": 53
+},{
+  "album_name": "my dog",
+  "photo_url": "images/dog/3.jpg",
+  "photo_name": "ride in the car",
+  "photo_id": 54
+},{
+  "album_name": "my dog",
+  "photo_url": "images/dog/4.jpg",
+  "photo_name": "ready for the cold",
+  "photo_id": 55
+},{
+  "album_name": "my dog",
+  "photo_url": "images/dog/5.jpg",
+  "photo_name": "workout buddy",
+  "photo_id": 56
+},{
+  "album_name": "my dog",
+  "photo_url": "images/dog/6.jpg",
+  "photo_name": "looking dapper",
+  "photo_id": 57
+},{
+  "album_name": "my dog",
+  "photo_url": "images/dog/7.jpg",
+  "photo_name": "too much turkey on thanksgiving",
+  "photo_id": 58
+},{
+  "album_name": "my dog",
+  "photo_url": "images/dog/8.jpg",
+  "photo_name": "faux hawk",
+  "photo_id": 59
+},{
+  "album_name": "my dog",
+  "photo_url": "images/dog/9.jpg",
+  "photo_name": "in a down",
+  "photo_id": 60
+},{
+  "album_name": "my dog",
+  "photo_url": "images/dog/10.jpg",
+  "photo_name": "on a walk",
+  "photo_id": 61
+},{
+  "album_name": "things i love",
+  "photo_url": "images/love/1.jpg",
+  "photo_name": "art",
+  "photo_id": 62
+},{
+  "album_name": "things i love",
+  "photo_url": "images/love/2.jpg",
+  "photo_name": "fashion",
+  "photo_id": 63
+},{
+  "album_name": "things i love",
+  "photo_url": "images/love/3.jpg",
+  "photo_name": "food",
+  "photo_id": 64
+},{
+  "album_name": "things i love",
+  "photo_url": "images/love/4.jpg",
+  "photo_name": "travel & culture",
+  "photo_id": 65
+},{
+  "album_name": "things i love",
+  "photo_url": "images/love/5.jpg",
+  "photo_name": "animals",
+  "photo_id": 66
+},{
+  "album_name": "things i love",
+  "photo_url": "images/love/6.jpg",
+  "photo_name": "architecture & interior design",
+  "photo_id": 67
+},{
+  "album_name": "things i love",
+  "photo_url": "images/love/7.jpg",
+  "photo_name": "typography",
+  "photo_id": 68
+},{
+  "album_name": "things i love",
+  "photo_url": "images/love/8.jpg",
+  "photo_name": "design psychology & ux",
+  "photo_id": 69
+},{
+  "album_name": "things i love",
+  "photo_url": "images/love/9.jpg",
+  "photo_name": "web development",
+  "photo_id": 70
+},{
+  "album_name": "things i love",
+  "photo_url": "images/love/10.jpg",
+  "photo_name": "left brain & right brain",
+  "photo_id": 71
 },{
   "album_name": "Beaches",
   "photo_url": "images/beaches/10.jpg",

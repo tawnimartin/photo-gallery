@@ -40,9 +40,10 @@ h1.test {
 }
 .albums_collection {
   margin: auto;
-  width: 799px;
+  width: 624px;
   padding: 0;
   text-align: center;
+  overflow: auto;
 }
 .contact-preview .photo {
   height: 100px;
@@ -118,6 +119,7 @@ h1.test {
   float: left;
   margin: 0 30px 20px 30px;
   transition: 0.7s ease;
+  height: 173px;
 }
 .photo-inner {
   cursor: pointer;
@@ -137,9 +139,6 @@ h1.test {
   filter: opacity(0.5);
 }
 .photo-inner:nth-child(6) {
-  clear: left;
-}
-.photo:nth-child(8) {
   clear: left;
 }
 .inner-album-name {
