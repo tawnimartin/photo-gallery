@@ -58,6 +58,7 @@ var App = (function() {
         return currentItem.album_name === album;
       });
 
+
       //console.log(albumData)
       //AlbumGroup(albumData);
       //show photos in a particular group
@@ -65,6 +66,7 @@ var App = (function() {
       $("body").html( ag.render() );
       //render title of the page
       $(".test").text( ag.renderTitle() + "." );
+
 
       //listener for the small individual photos - calls zoomphoto
       $(".main").on("click", ".photo", function(e){
@@ -83,7 +85,11 @@ var App = (function() {
       var albumData = this.getAlbumData();
       //instantiate navList - which is nav outer - which iself pulls in nav inner
       var nav = new NavList(albumData);
+
       $(".sidebar").html( nav.render() );
+      //this runs the function that adds "active" class to the li for the group
+      //console.log("hello");
+      nav.select(album);
 
       //listener needs to be here, after sidebar is rendered
       $(".nav-list").on("click", ".inner-album-name", function(e){
@@ -92,7 +98,7 @@ var App = (function() {
         var groupName = $clicked.data("group-name");
         $(".main").html( app.showAlbum(groupName) );
         //$(".sidebar").html( nav.render() );
-        app.showNav();
+        app.showNav(groupName);
       });
     },
 
@@ -129,7 +135,7 @@ var App = (function() {
         $clicked = $(e.currentTarget);
         var groupName = $clicked.data("group-name");
         app.showAlbum(groupName);
-        app.showNav();
+        app.showNav(groupName);
       });
     }
   }

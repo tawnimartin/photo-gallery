@@ -49,9 +49,6 @@ h1.test {
   height: 100px;
   overflow: hidden;
 }
-.sidebar .active {
-  color: #000000;
-}
 .main {
   width: 900px;
   float: left;
@@ -155,6 +152,9 @@ h1.test {
 .inner-album-name:hover {
   color: #ffffff;
   transition: 0.5s ease;
+}
+.active {
+  color: #ffffff;
 }
 .nav-list {
   margin: 179px 0 0 0;

@@ -1,145 +1,140 @@
 [{
-  "album_name": "Instagram",
+  "album_name": "instagram",
   "photo_url": "images/instagram/1.jpg",
   "photo_name": "Tulips in the sun",
   "photo_id": 16
 },{
-  "album_name": "Instagram",
+  "album_name": "instagram",
   "photo_url": "images/instagram/2.jpg",
   "photo_name": "Yum",
   "photo_id": 17
 },{
-  "album_name": "Instagram",
+  "album_name": "instagram",
   "photo_url": "images/instagram/3.jpg",
   "photo_name": "a ride in the car",
   "photo_id": 18
 },{
-  "album_name": "Instagram",
+  "album_name": "instagram",
   "photo_url": "images/instagram/4.jpg",
   "photo_name": "artsy shot",
   "photo_id": 19
 },{
-  "album_name": "Instagram",
+  "album_name": "instagram",
   "photo_url": "images/instagram/5.jpg",
   "photo_name": "pink and black",
   "photo_id": 20
 },{
-  "album_name": "Instagram",
+  "album_name": "instagram",
   "photo_url": "images/instagram/6.jpg",
   "photo_name": "seemed like a good idea at the time",
   "photo_id": 21
 },{
-  "album_name": "Instagram",
+  "album_name": "instagram",
   "photo_url": "images/instagram/7.jpg",
   "photo_name": "selfie with filters",
   "photo_id": 22
 },{
-  "album_name": "Instagram",
+  "album_name": "instagram",
   "photo_url": "images/instagram/8.jpg",
   "photo_name": "shadows",
   "photo_id": 23
 },{
-  "album_name": "Instagram",
-  "photo_url": "images/instagram/9.jpg",
-  "photo_name": "flower",
-  "photo_id": 24
-},{
-  "album_name": "Instagram",
+  "album_name": "instagram",
   "photo_url": "images/instagram/10.jpg",
   "photo_name": "sky",
   "photo_id": 25
 },{
-  "album_name": "hotels i've been to",
+  "album_name": "hotels ive been to",
   "photo_url": "images/hotels/1.jpg",
   "photo_name": "Castillo Del Bosque La Zoreda, Spain",
   "photo_id": 26
 },{
-  "album_name": "hotels i've been to",
+  "album_name": "hotels ive been to",
   "photo_url": "images/hotels/2.jpg",
   "photo_name": "Palacio del Bailío, Spain",
   "photo_id": 27
 },{
-  "album_name": "hotels i've been to",
+  "album_name": "hotels ive been to",
   "photo_url": "images/hotels/3.jpg",
   "photo_name": "The Public Hotel, Chicago",
   "photo_id": 28
 },{
-  "album_name": "hotels i've been to",
+  "album_name": "hotels ive been to",
   "photo_url": "images/hotels/4.jpg",
   "photo_name": "The Algonquin Hotel, Ny, NY",
   "photo_id": 29
 },{
-  "album_name": "hotels i've been to",
+  "album_name": "hotels ive been to",
   "photo_url": "images/hotels/5.jpg",
   "photo_name": "The Hay Adams Hotel, DC",
   "photo_id": 36
 },{
-  "album_name": "hotels i've been to",
+  "album_name": "hotels ive been to",
   "photo_url": "images/hotels/6.jpg",
   "photo_name": "the lowes madison hotel, Washington, DC",
   "photo_id": 30
 },{
-  "album_name": "hotels i've been to",
+  "album_name": "hotels ive been to",
   "photo_url": "images/hotels/7.jpg",
   "photo_name": "Grand Hotel Don Gregorio Salamanca, Spain",
   "photo_id": 35
 },{
-  "album_name": "hotels i've been to",
+  "album_name": "hotels ive been to",
   "photo_url": "images/hotels/8.jpg",
   "photo_name": "Le Méridien San Francisco",
   "photo_id": 31
 },{
-  "album_name": "hotels i've been to",
+  "album_name": "hotels ive been to",
   "photo_url": "images/hotels/9.jpg",
   "photo_name": "the urban hotel, madrid, spain",
   "photo_id": 32
 },{
-  "album_name": "hotels i've been to",
+  "album_name": "hotels ive been to",
   "photo_url": "images/hotels/10.jpg",
   "photo_name": "Half Moon Resort, jamaica",
   "photo_id": 34
 },{
-  "album_name": "Beaches",
+  "album_name": "beaches",
   "photo_url": "images/beaches/1.jpg",
   "photo_name": "A Beach Somewhere in the World",
   "photo_id": 7
 },{
-  "album_name": "Beaches",
+  "album_name": "beaches",
   "photo_url": "images/beaches/2.jpg",
   "photo_name": "Another Nice Beach",
   "photo_id": 8
 },{
-  "album_name": "Beaches",
+  "album_name": "beaches",
   "photo_url": "images/beaches/3.jpg",
   "photo_name": "A Beach with sunset",
   "photo_id": 9
 },{
-  "album_name": "Beaches",
+  "album_name": "beaches",
   "photo_url": "images/beaches/4.jpg",
   "photo_name": "Hawaii",
   "photo_id": 10
 },{
-  "album_name": "Beaches",
+  "album_name": "beaches",
   "photo_url": "images/beaches/5.jpg",
   "photo_name": "cool wave shot",
   "photo_id": 11
 },{
-  "album_name": "Beaches",
+  "album_name": "beaches",
   "photo_url": "images/beaches/6.jpg",
   "photo_name": "water falling over rocks",
   "photo_id": 12
 },{
-  "album_name": "Beaches",
+  "album_name": "beaches",
   "photo_url": "images/beaches/7.jpg",
   "photo_name": "liberal use of hdr",
   "photo_id": 13
 },{
-  "album_name": "Beaches",
+  "album_name": "beaches",
   "photo_url": "images/beaches/8.jpg",
   "photo_name": "beach with palm",
   "photo_id": 14
 },{
-  "album_name": "Beaches",
+  "album_name": "beaches",
   "photo_url": "images/beaches/9.jpg",
   "photo_name": "as seen on thousands of postcards",
   "photo_id": 15
@@ -294,7 +289,7 @@
   "photo_name": "left brain & right brain",
   "photo_id": 71
 },{
-  "album_name": "Beaches",
+  "album_name": "beaches",
   "photo_url": "images/beaches/10.jpg",
   "photo_name": "panic level 10",
   "photo_id": 33

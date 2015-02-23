@@ -4,7 +4,17 @@ var NavList = (function() {
   function NavList(data) {
   this.data = data;
   }
+
   NavList.prototype = {
+      //removes whatever active classes are on lis
+      //and finds the one that matches the group
+      //and adds active
+      select: function(groupName) {
+      $el = $("ul");
+      $el.find("li").removeClass("active");
+      $el.find("li[data-group-name='"+ groupName +"']")
+      .addClass("active");
+    },
 
       render: function() {
         var $el = $( template() );
